@@ -71,7 +71,7 @@ p {
     font-weight: 100;
 }
 
-.text-header a {
+.btn {
     text-decoration: none;
     display: inline-block;
     padding: 15px;
@@ -164,6 +164,13 @@ p {
     color: var(--dark-color);
 }
 
+.cal-to-a {
+    height: 150px;
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+}
+
 
 /*below are the styles to the people held section*/
 
@@ -232,4 +239,34 @@ p {
     width: 100%;
     background-color: var(--dark-color);
     display: flex;
+    flex-direction: row;
+    padding: 78px 60px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: var(--light-color);
+}
+
+li {
+    color: var(--light-color);
+    line-height: 30px;
+}
+
+.container-text {
+    flex: 20%;
+    margin: 0 auto;
+    margin-left: 20px;
+    color: var(--light-color);
+}
+
+.copyright {
+    height: 60px;
+    width: 100%;
+    background-color: var(--medium-color);
+    padding: 20px 80px;
 }

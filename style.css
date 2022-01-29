@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,200&family=Outfit:wght@100;200;300;400;600&display=swap');
+:root {
+    --medium-color: #83C5BE;
+    --light-color: #E6E6E6;
+    --dark-color: #006D77;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 24px;
+    word-spacing: 3px;
+}
+
+
+/*below are the styles to the navb bar*/
+
+.nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark-color);
+    padding: 32px 80px 10px 80px;
+}
+
+.logo span {
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--light-color);
+}
+
+.nav-links {
+    margin-top: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--light-color);
+    padding: 7px;
+    margin: 6px 4px;
+}
+
+
+/*below are the styles to the header section*/
+
+.header {
+    height: 97vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--light-color);
+    padding: 0px 20px 30px 80px;
+    align-items: center;
+}
+
+.text-header {
+    flex: 50%;
+}
+
+.text-header h1 {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.text-header a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    width: 150px;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.image-heder {
+    flex: 30%;
+}
+
+.image-heder-img {
+    height: auto;
+    width: 100%;
+}
+
+
+/*below are the styles to the who we are section*/
+
+.who-we-are {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background-color: var(--dark-color);
+    padding: 0px 80px 0px 80px;
+    color: var(--light-color);
+    align-items: center;
+}
+
+.who-we-are-image {
+    flex: 50%;
+}
+
+.who-we-are-image img {
+    height: auto;
+    width: 90%;
+}
+
+.who-we-are-text {
+    flex: 30%;
+    padding: 10px;
+}
+
+.who-we-are-text h2 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.big-p {
+    font-size: 23px;
+    font-weight: 200;
+}
+
+
+/*below are the styles to the our services section*/
+
+.services {
+    height: 750px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 80px 20px 80px;
+}
+
+.servies-h2 {
+    height: 230px;
+    width: 35%;
+    margin: 30px auto;
+    padding-top: 36px;
+}
+
+.servies-h2 h2 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.services-box {
+    height: auto;
+    width: 35%;
+    background-color: var(--medium-color);
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.services-box h2 {
+    color: var(--dark-color);
+}
+
+
+/*below are the styles to the people held section*/
+
+.clients {
+    background-color: var(--light-color);
+    height: 600px;
+    width: 100%;
+    padding: 1px 80px 20px 80px;
+}
+
+.heading-clients {
+    text-align: center;
+}
+
+.heading-clients h2 {
+    font-size: 60px;
+    font-weight: 800;
+    color: var(--dark-color);
+}
+
+.container-clients {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-client {
+    height: 350px;
+    width: 250px;
+    border: 1px solid var(--dark-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 20px 20px 20px;
+    transition: 0.5s;
+    margin: auto;
+}
+
+.main-client:hover {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+.client-pic {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.client-pic img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.client-text {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* these are the stylees to the footer */
+
+.footer-section {
+    height: 400px;
+    width: 100%;
+    background-color: var(--dark-color);
+    display: flex;
+}
